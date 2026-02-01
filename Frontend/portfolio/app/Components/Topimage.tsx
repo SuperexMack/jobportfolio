@@ -13,9 +13,10 @@ export function TopImageDiv() {
 
   const skillsArray = [
     "Full-Stack web developer",
+    "Open source contributor",
     "Web3 Developer",
-    "Solana Developer",
-    "Love Problem solving"
+    "Love Problem solving",
+    "Creating with code. Small details matter."
   ]
 
  
