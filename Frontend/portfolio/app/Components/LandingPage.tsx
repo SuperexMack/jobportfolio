@@ -1,3 +1,5 @@
+import { Aboutme } from "./About";
+import { Achievements } from "./Achivements";
 import { Details } from "./Details";
 import { SocialMediaLinks } from "./SocialMedialink";
 import { TopImageDiv } from "./Topimage";
@@ -11,6 +13,8 @@ export function LandingPage(){
                <TopImageDiv></TopImageDiv>
                 <Details></Details>
                 <SocialMediaLinks></SocialMediaLinks>
+                <Aboutme></Aboutme>
+                <Achievements></Achievements>
             </div>
 
          </div>

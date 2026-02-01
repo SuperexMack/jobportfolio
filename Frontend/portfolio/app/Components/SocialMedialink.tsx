@@ -1,5 +1,5 @@
 import Image from "next/image"
-
+import Link from "next/link"
 
 export function SocialMediaLinks(){
     return(
@@ -18,7 +18,7 @@ export function SocialMediaLinks(){
 
                  <div className="flex flex-col space-y-3 ml-3">
                     <h1 className="font-bold">X(formerly Twitter)</h1>
-                    <h1>@mohitsatitwt</h1>
+                    <Link href={"https://x.com/mohitsatitwt"}>@mohitsatitwt</Link>
                  </div>
 
              </div>
@@ -31,7 +31,7 @@ export function SocialMediaLinks(){
 
                  <div className="flex flex-col space-y-3 ml-3">
                     <h1 className="font-bold">Linkedin</h1>
-                    <h1>mohitsatilinks</h1>
+                    <Link href={"https://www.linkedin.com/in/mohitsatilinks/"}>mohitsatilinks</Link>
                  </div>
 
              </div>
@@ -51,7 +51,7 @@ export function SocialMediaLinks(){
 
                  <div className="flex flex-col space-y-3 ml-3">
                     <h1 className="font-bold">Github</h1>
-                    <h1>SuperexMack</h1>
+                    <Link href={"https://github.com/SuperexMack"}>SuperexMack</Link>
                  </div>
 
              </div>
@@ -64,7 +64,7 @@ export function SocialMediaLinks(){
 
                  <div className="flex flex-col space-y-3 ml-3">
                     <h1 className="font-bold">Youtube</h1>
-                    <h1>@nginxfileo</h1>
+                    <Link href={"https://youtube.com/@nginxfileo?si=QhsGGcgttjEhD3Pt"}>@nginxfileo</Link>
                  </div>
 
              </div>
