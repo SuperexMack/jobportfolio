@@ -46,12 +46,12 @@ export function TopImageDiv() {
 
   return (
     <>
-      <div className="w-full h-[200px] mt-4 relative border border-slate-300 p-2 rounded-lg">
+      <div className="w-full h-[200px] mt-4 relative p-2 rounded-lg">
         <Image
-          src="/mainheading.png"
+          src="/lasterheader.jpeg"
           alt="top_image"
           fill
-          className="object-contain rounded-lg hover:scale-105 hover:delay-200 transition-transform"
+          className="object-cover rounded-lg hover:scale-105 hover:delay-200 transition-transform"
         />
       </div>
 
