@@ -19,7 +19,7 @@ let blogRef = useRef<null | HTMLDivElement>(null)
 let projectRef = useRef<null | HTMLDivElement>(null)
 let achRef = useRef<null | HTMLDivElement>(null)
 
-  const startingIntro = ["Welcome", "to", "Mohit Sati", "World"];
+  const startingIntro = ["I","am","open to","work !!"];
 
   const [count, setCount] = useState(0);
   const [statement, SetStatement] = useState(startingIntro[0]);
