@@ -6,7 +6,7 @@ export function Blogs() {
     <>
       <div className="flex w-full h-auto flex-col space-y-4 mt-[100px]">
         <h1 className="text-white text-center font-bold text-[40px] underline">
-          Blogs <span className="text-slate-400">(6)</span>
+          Blogs <span className="text-slate-400">(3)</span>
         </h1>
 
         {/* First box */}

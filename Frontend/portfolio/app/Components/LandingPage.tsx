@@ -1,5 +1,5 @@
 "use client";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Aboutme } from "./About";
 import { Achievements } from "./Achivements";
 import { Blogs } from "./Blogs";
@@ -14,6 +14,11 @@ import { SocialMediaLinks } from "./SocialMedialink";
 import { TopImageDiv } from "./Topimage";
 
 export function LandingPage() {
+
+let blogRef = useRef<null | HTMLDivElement>(null)
+let projectRef = useRef<null | HTMLDivElement>(null)
+let achRef = useRef<null | HTMLDivElement>(null)
+
   const startingIntro = ["Welcome", "to", "Mohit Sati", "World"];
 
   const [count, setCount] = useState(0);
@@ -45,7 +50,7 @@ export function LandingPage() {
         </div>
       ) : (
         <>
-          <Navbar></Navbar>
+          <Navbar blogRef={blogRef} projectRef={projectRef} achRef={achRef} ></Navbar>
 
           <div className="flex flex-col z-50 items-center w-full h-auto bg-black mt-[80px]">
             <div className="flex flex-col space-y-6 w-[50%] rounded-2xl border border-slate-900 p-1 h-auto">
@@ -56,9 +61,9 @@ export function LandingPage() {
               <MarqueeDemo></MarqueeDemo>
               <Demo></Demo>
               <Skills></Skills>
-              <Blogs></Blogs>
-              <Projects></Projects>
-              <Achievements></Achievements>
+              <div ref={blogRef}><Blogs></Blogs></div>
+              <div ref={projectRef}><Projects></Projects></div>
+              <div ref={achRef}><Achievements></Achievements></div>
               <Footer></Footer>
             </div>
           </div>
