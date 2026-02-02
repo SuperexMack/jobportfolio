@@ -4,6 +4,7 @@ import { Blogs } from "./Blogs";
 import { Details } from "./Details";
 import  {Demo}  from "./GithubHeatmap";
 import { MarqueeDemo } from "./Marquee";
+import { Projects } from "./Projects";
 import { Skills } from "./Skills";
 import { SocialMediaLinks } from "./SocialMedialink";
 import { TopImageDiv } from "./Topimage";
@@ -22,6 +23,7 @@ export function LandingPage(){
                 <Demo></Demo>
                 <Skills></Skills>
                 <Blogs></Blogs>
+                <Projects></Projects>
                 <Achievements></Achievements>
             </div>
 
