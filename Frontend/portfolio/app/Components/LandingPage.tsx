@@ -13,7 +13,7 @@ import { TopImageDiv } from "./Topimage";
 export function LandingPage(){
     return(
         <>
-         <div className="flex flex-col items-center w-full h-auto bg-black">
+         <div className="flex flex-col z-50 items-center w-full h-auto bg-black mt-[80px]">
 
             <div className="flex flex-col space-y-6 w-[50%]  h-auto">
                <TopImageDiv></TopImageDiv>
