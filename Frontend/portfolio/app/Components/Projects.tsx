@@ -75,7 +75,7 @@ export function Projects() {
                 </div>
 
                 <button
-                  onClick={() => window.open(project.github, "_blank")}
+                  onClick={() => window.open(project.github)}
                   className="text-gray-400 hover:text-white transition"
                 >
                   🔗

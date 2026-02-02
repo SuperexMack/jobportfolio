@@ -18,7 +18,7 @@ export function Achievements() {
       <div className="w-full h-[700px] flex justify-between">
 
         <div className="w-full h-full  relative">
-           <Image alt="icpc_image" className="object-cover" fill src={"/icpc.jpeg"}></Image>
+           <Image alt="icpc_image" className="object-cover rounded-lg" fill src={"/icpc.jpeg"}></Image>
         </div>
 
          <div className="w-full h-full  p-2">
@@ -67,7 +67,7 @@ export function Achievements() {
         </div>
 
          <div className="w-full h-full  relative">
-           <Image alt="icpc_image" className="object-cover" fill src={"/sih.jpeg"}></Image>
+           <Image alt="icpc_image" className="object-cover rounded-lg" fill src={"/sih.jpeg"}></Image>
         </div>
 
       </div>
