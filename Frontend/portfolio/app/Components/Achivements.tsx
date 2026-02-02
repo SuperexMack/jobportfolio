@@ -17,11 +17,11 @@ export function Achievements() {
 
       <div className="w-full h-[700px] flex justify-between">
 
-        <div className="w-full h-full bg-amber-600 relative">
+        <div className="w-full h-full  relative">
            <Image alt="icpc_image" className="object-cover" fill src={"/icpc.jpeg"}></Image>
         </div>
 
-         <div className="w-full h-full bg-green-600 p-2">
+         <div className="w-full h-full  p-2">
 
             <h1 className="font-bold text-center text-[25px]">ICPC Asia West Regional Selection</h1>
 
@@ -45,7 +45,7 @@ export function Achievements() {
 
       <div className="w-full h-[700px] flex justify-between mt-2">
 
-        <div className="w-full h-full bg-amber-600">
+        <div className="w-full h-full ">
 
              <h1 className="font-bold text-center text-[25px]">Smart India Hackathon (SIH) 2025</h1>
 
@@ -66,7 +66,7 @@ export function Achievements() {
 
         </div>
 
-         <div className="w-full h-full bg-amber-600 relative">
+         <div className="w-full h-full  relative">
            <Image alt="icpc_image" className="object-cover" fill src={"/sih.jpeg"}></Image>
         </div>
 

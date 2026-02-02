@@ -1,6 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Frijole&family=Playwrite+CZ:wght@100..400&family=Sirin+Stencil&family=VT323&display=swap');
 @import "tailwindcss";
 @import "tw-animate-css";
-
 
 @theme inline {
   --color-background: var(--background);
@@ -142,5 +142,7 @@
 }
 
 body{
-  background-color: black;
+   font-family: "Sirin Stencil", sans-serif;
+  font-weight: 900;
+  font-style: normal;
 }

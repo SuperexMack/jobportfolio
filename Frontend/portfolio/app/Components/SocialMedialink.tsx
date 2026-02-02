@@ -8,9 +8,9 @@ export function SocialMediaLinks(){
 
            {/* First box */}
 
-           <div className="w-[48%] h-[300px] bg-red-600 flex flex-col space-y-4">
+           <div className="w-[48%] h-[300px]  flex flex-col space-y-4">
 
-             <div className="w-full flex space-x-3 bg-amber-600 mt-3 space-x-3.5 items-center">
+             <div className="w-full flex space-x-3  mt-3 space-x-3.5 items-center">
 
                  <div className="relative w-[100px] h-[100px]">
                     <Image fill className=" ml-3 rounded-lg object-cover" alt="_twitter" src={"/twitter.webp"}></Image>
@@ -23,7 +23,7 @@ export function SocialMediaLinks(){
 
              </div>
 
-              <div className="w-full flex space-x-3 bg-amber-600 mt-3 space-x-3.5 items-center">
+              <div className="w-full flex space-x-3  mt-3 space-x-3.5 items-center">
 
                  <div className="relative w-[100px] h-[100px]">
                     <Image fill className=" ml-3 rounded-lg object-cover" alt="_linkedin" src={"/linkedin.webp"}></Image>
@@ -41,9 +41,9 @@ export function SocialMediaLinks(){
 
            {/* Second box */}
 
-           <div className="w-[48%] h-[300px] bg-green-600 flex flex-col space-y-4">
+           <div className="w-[48%] h-[300px]  flex flex-col space-y-4">
 
-             <div className="w-full flex space-x-3 bg-amber-600 mt-3 space-x-3.5 items-center">
+             <div className="w-full flex space-x-3  mt-3 space-x-3.5 items-center">
 
                  <div className="relative w-[100px] h-[100px]">
                     <Image fill className=" ml-3 rounded-lg object-cover" alt="_github" src={"/github.webp"}></Image>
@@ -56,7 +56,7 @@ export function SocialMediaLinks(){
 
              </div>
 
-              <div className="w-full flex space-x-3 bg-amber-600 mt-3 space-x-3.5 items-center">
+              <div className="w-full flex space-x-3  mt-3 space-x-3.5 items-center">
 
                  <div className="relative w-[100px] h-[100px]">
                     <Image fill className=" ml-3 rounded-lg object-cover" alt="_yt" src={"/ytt.webp"}></Image>

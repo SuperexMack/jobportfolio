@@ -55,17 +55,17 @@ export function TopImageDiv() {
         />
       </div>
 
-      <div className="w-full flex space-x-3 bg-green-600 h-[200px] mt-3">
-        <div className="bg-pink-600 w-[20%] h-auto relative">
+      <div className="w-full flex space-x-3  h-[200px] mt-3">
+        <div className=" w-[20%] h-auto relative">
           <Image
-            src="/mohitmainimage.jpeg"
+            src="/mohitsati.png"
             alt="top_image"
             fill
             className="object-cover w-full h-full rounded-full hover:scale-105 hover:delay-200 transition-transform"
           />
         </div>
 
-        <div className="bg-pink-600 w-[50%] flex flex-col justify-center space-x-4">
+        <div className=" w-[50%] flex flex-col justify-center space-x-4">
 
         <div className="border-b border-t border-gray-900 flex  space-x-3 items-center w-full">
 
