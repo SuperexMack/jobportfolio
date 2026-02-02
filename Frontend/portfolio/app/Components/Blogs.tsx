@@ -6,7 +6,7 @@ export function Blogs() {
     <>
       <div className="flex w-full h-auto flex-col space-y-4 mt-[100px]">
         <h1 className="text-white text-center font-bold text-[40px] underline">
-          Blogs
+          Blogs <span className="text-slate-400">(6)</span>
         </h1>
 
         {/* First box */}
@@ -14,8 +14,8 @@ export function Blogs() {
         <div className="flex w-full h-auto justify-between space-x-3 mt-[50px]">
           {/* First-First box */}
 
-          <div className="w-[45%] h-[400px] flex flex-col space-y-3 bg-red-700">
-            <div className="w-full h-[90%] relative bg-green-600">
+          <div className="w-[45%] h-[400px] flex flex-col space-y-3 border border-slate-400 p-2 rounded-2xl">
+            <div className="w-full h-[90%] relative ">
               <Link
                 href={
                   "https://medium.com/@flux7500560/building-a-simple-api-rate-limiter-in-node-js-with-redis-e9b2901d88b9"
@@ -25,7 +25,7 @@ export function Blogs() {
                 <Image
                   alt="redis_image"
                   fill
-                  className="object-contain"
+                  className="object-contain rounded-2xl hover:scale-105 transition-all duration-200"
                   src={"/redis.png"}
                 ></Image>
               </Link>
@@ -40,8 +40,8 @@ export function Blogs() {
 
           {/* First-Second box */}
 
-          <div className="w-[45%] h-[400px] flex flex-col space-y-3 bg-red-700">
-            <div className="w-full h-[90%] relative bg-green-600">
+          <div className="w-[45%] h-[400px] flex flex-col space-y-3 border border-slate-400 p-2 rounded-2xl">
+            <div className="w-full h-[90%] relative">
               <Link
                 href={
                   "https://medium.com/@flux7500560/ssh-the-untold-story-68f1cbc68f4f"
@@ -50,8 +50,8 @@ export function Blogs() {
                 <Image
                   alt="redis_image"
                   fill
-                  className="object-contain"
-                  src={"/ssh.png"}
+                  className="object-contain rounded-2xl hover:scale-105 transition-all duration-200"
+                  src={"/myssh.png"}
                 ></Image>
               </Link>
             </div>
@@ -65,8 +65,8 @@ export function Blogs() {
         </div>
 
         <div className="flex justify-center">
-          <div className="w-[45%] h-[400px] flex flex-col space-y-3 bg-red-700">
-            <div className="w-full h-[90%] relative bg-green-600">
+          <div className="w-[45%] h-[400px] flex flex-col space-y-3 border border-slate-400 p-2 rounded-2xl">
+            <div className="w-full h-[90%] relative rounded-lg">
               <Link
                 href={
                   "https://medium.com/@flux7500560/anchor-first-solana-program-calculator-in-solana-a80420554676"
@@ -75,7 +75,7 @@ export function Blogs() {
                 <Image
                   alt="redis_image"
                   fill
-                  className="object-contain"
+                  className="object-contain rounded-2xl hover:scale-105 transition-all duration-200"
                   src={"/anchor.png"}
                 ></Image>
               </Link>

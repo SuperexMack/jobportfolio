@@ -46,12 +46,12 @@ export function TopImageDiv() {
 
   return (
     <>
-      <div className="w-full h-[300px] mt-4 relative">
+      <div className="w-full h-[200px] mt-4 relative border border-slate-300 p-2 rounded-lg">
         <Image
-          src="/topimagee.webp"
+          src="/mainheading.png"
           alt="top_image"
           fill
-          className="object-cover rounded-lg hover:scale-105 hover:delay-200 transition-transform"
+          className="object-contain rounded-lg hover:scale-105 hover:delay-200 transition-transform"
         />
       </div>
 
@@ -61,7 +61,7 @@ export function TopImageDiv() {
             src="/mohitsati.png"
             alt="top_image"
             fill
-            className="object-cover w-full h-full rounded-full hover:scale-105 hover:delay-200 transition-transform"
+            className="object-cover w-full h-full rounded-full hover:scale-105  transition-transform"
           />
         </div>
 
@@ -69,7 +69,7 @@ export function TopImageDiv() {
 
         <div className="border-b border-t border-gray-900 flex  space-x-3 items-center w-full">
 
-        <h1 className="text-[30px] ml-2">Móhït Sátï</h1>
+        <h1 className="text-[30px] ml-2 text-white">Móhït Sátï</h1>
 
         {/* // Blue tick wala div */}
 
@@ -80,7 +80,7 @@ export function TopImageDiv() {
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
-            className="size-4.5 text-info select-none"
+            className="size-6 text-info select-none text-blue-700"
             aria-label="Verified"
           >
             <path
@@ -92,7 +92,7 @@ export function TopImageDiv() {
         </div>
 
         <div>
-            <h1><Volume2  onClick={playAudio} ></Volume2></h1>
+            <h1><Volume2 className="text-white"  onClick={playAudio} ></Volume2></h1>
             <audio src={"/song.mp4"} ref={songRef}></audio>
         </div>
 
@@ -104,7 +104,7 @@ export function TopImageDiv() {
 
         <div className="w-full p-3">
 
-            <h1>{skillValue}</h1>
+            <h1 className="text-slate-300">{skillValue}</h1>
 
         </div>
 
