@@ -91,8 +91,10 @@ export function TopImageDiv() {
 
         </div>
 
-        <div>
+        <div className="flex space-x-1">
             <h1><Volume2 className="text-white"  onClick={playAudio} ></Volume2></h1>
+            <h1 className="text-slate-300">{"->"}</h1>
+            <h1 className="text-slate-300">(Play song)</h1>
             <audio src={"/song.mp4"} ref={songRef}></audio>
         </div>
 
