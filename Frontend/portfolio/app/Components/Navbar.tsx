@@ -52,7 +52,7 @@ export function Navbar({blogRef,projectRef,achRef}:any){
              {clicked?(
 
                
-                <div className="flex w-screen absolute left-0 p-4 h-[200px] top-[80px] bg-red-600 flex-col space-y-3 items-center">
+                <div className="flex w-screen absolute left-0 p-4 h-[200px] top-[80px] bg-black flex-col space-y-3 items-center">
                 <Link onClick={blog} href={"/"}><h1 className="hover:text-slate-400 md:flex font-bold text-white">Blogs</h1></Link>
                 <Link onClick={project} href={"/"}><h1 className="hover:text-slate-400 md:flex font-bold text-white">Projects</h1></Link>
                 <Link onClick={achv} href={"/"}><h1 className="hover:text-slate-400 md:flex font-bold text-white">achievement</h1></Link>
