@@ -10,7 +10,7 @@ export function Details(){
 
     return(
         <>
-        <div className="mt-3 w-full h-auto flex justify-around p-1">
+        <div className="mt-3 w-full h-auto flex-col md:flex-row md:flex justify-around p-1">
 
             {/* First Box */}
 

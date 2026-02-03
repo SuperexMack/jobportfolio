@@ -53,7 +53,7 @@ let achRef = useRef<null | HTMLDivElement>(null)
           <Navbar blogRef={blogRef} projectRef={projectRef} achRef={achRef} ></Navbar>
 
           <div className="flex flex-col z-50 items-center w-full h-auto bg-black mt-[80px]">
-            <div className="flex flex-col space-y-6 w-[50%] rounded-2xl border border-slate-900 p-1 h-auto">
+            <div className="flex flex-col space-y-6 w-full md:w-[50%] rounded-2xl border border-slate-900 p-1 h-auto">
               <TopImageDiv></TopImageDiv>
               <Details></Details>
               <SocialMediaLinks></SocialMediaLinks>

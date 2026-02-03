@@ -42,7 +42,7 @@ export function Navbar({blogRef,projectRef,achRef}:any){
 
     return(
         <>
-        <div className="w-full z-50 fixed top-0 h-[80px] bg-black p-3 flex justify-center items-center space-x-6 border-b border-t border-gray-900">
+        <div className="w-full overflow-hidden z-50 fixed top-0 h-[80px] bg-black p-3 flex justify-center items-center space-x-6 border-b border-t border-gray-900">
 
 
             <div className="absolute left-[70px]">
@@ -52,7 +52,7 @@ export function Navbar({blogRef,projectRef,achRef}:any){
              {clicked?(
 
                
-                <div className="flex w-full h-[200px] mt-[300px] p-2 bg-black flex-col space-y-3 items-center">
+                <div className="flex w-full h-[200px] mt-[200px] p-2 bg-black flex-col space-y-3 items-center">
                 <Link onClick={blog} href={"/"}><h1 className="hover:text-slate-400 md:flex font-bold text-white">Blogs</h1></Link>
                 <Link onClick={project} href={"/"}><h1 className="hover:text-slate-400 md:flex font-bold text-white">Projects</h1></Link>
                 <Link onClick={achv} href={"/"}><h1 className="hover:text-slate-400 md:flex font-bold text-white">achievement</h1></Link>

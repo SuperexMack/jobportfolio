@@ -46,26 +46,26 @@ export function TopImageDiv() {
 
   return (
     <>
-      <div className="w-full h-[200px] mt-4 relative p-2 rounded-lg">
+      <div className="w-full h-[300px] mt-4 relative p-2 rounded-lg">
         <Image
           src="/lasterheader.jpeg"
           alt="top_image"
           fill
-          className="object-cover rounded-lg hover:scale-105 hover:delay-200 transition-transform"
+          className="md:object-cover object-contain rounded-lg hover:scale-105 hover:delay-200 transition-transform"
         />
       </div>
 
-      <div className="w-full flex space-x-3  h-[200px] mt-3">
-        <div className=" w-[20%] h-auto relative">
+      <div className="w-full md:flex md:flex-row space-x-3 h-[200px]  md:h-[200px] mt-3 ">
+        <div className="w-[80%] md:w-[20%] h-auto relative">
           <Image
             src="/mohitsati.png"
             alt="top_image"
             fill
-            className="object-cover w-full h-full rounded-full hover:scale-105  transition-transform"
+            className="md:object-cover object-contain w-full h-full rounded-full hover:scale-105  transition-transform"
           />
         </div>
 
-        <div className=" w-[50%] flex flex-col justify-center space-x-4">
+        <div className=" w-[50%] flex flex-col justify-center space-x-4 ">
 
         <div className="border-b border-t border-gray-900 flex  space-x-3 items-center w-full">
 

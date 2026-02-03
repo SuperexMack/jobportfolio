@@ -24,11 +24,11 @@ export function Achievements() {
           </div>
 
           <div>
-            <h3 className="text-2xl font-bold mb-4 underline">
+            <h3 className="md:text-2xl text-[23px] font-bold text-center mb-4 underline">
               ICPC Asia West Regional Selection
             </h3>
 
-            <p className="text-lg leading-relaxed text-gray-300">
+            <p className="md:text-lg text-[15px]  text-gray-300">
               I qualified for the <strong>ICPC Asia West Regional Contest 2025</strong>,
               becoming the <strong>first student in my college’s history</strong> to do so.
               I represented my college at the <strong>regional contest in Bangalore</strong>
@@ -45,11 +45,11 @@ export function Achievements() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center bg-[#0f0f14] rounded-2xl p-6  transition-all duration-300">
           
           <div className="order-2 md:order-1">
-            <h3 className="text-2xl font-bold mb-4 underline">
+            <h3 className="md:text-2xl text-[23px] text-center font-bold mb-4 underline">
               Smart India Hackathon (SIH) 2025
             </h3>
 
-            <p className="text-lg leading-relaxed text-gray-300">
+            <p className="md:text-lg text-[15px] text-gray-300">
               I was a <strong>National Finalist</strong> at the
               <strong> Smart India Hackathon (SIH) 2025</strong>, as part of the
               <strong> first team in my college’s history</strong> to reach the national stage.
