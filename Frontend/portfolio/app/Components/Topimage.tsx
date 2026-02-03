@@ -46,7 +46,7 @@ export function TopImageDiv() {
 
   return (
     <>
-      <div className="w-full h-[300px] mt-4 relative p-2 rounded-lg">
+      <div className="w-full h-[300px] mt-4 relative rounded-lg">
         <Image
           src="/lasterheader.jpeg"
           alt="top_image"

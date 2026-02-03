@@ -145,4 +145,5 @@ body{
   font-family: "Sirin Stencil", sans-serif;
   font-weight: 900;
   font-style: normal;
+  overflow-x: hidden;
 }
