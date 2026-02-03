@@ -42,7 +42,7 @@ export function Navbar({blogRef,projectRef,achRef}:any){
             <Link onClick={blog} href={"/"}><h1 className="hover:text-slate-400 font-bold text-white">Blogs</h1></Link>
             <Link onClick={project} href={"/"}><h1 className="hover:text-slate-400 font-bold text-white">Projects</h1></Link>
             <Link onClick={achv} href={"/"}><h1 className="hover:text-slate-400 font-bold text-white">achievement</h1></Link>
-            <Link href={"https://drive.google.com/file/d/1N9A0IeIUmPramfADed8I22VpqFqYLZPp/view?usp=drive_link"}><h1 className="hover:text-slate-400 font-bold text-white">Resume</h1></Link>
+            <Link href={"https://drive.google.com/file/d/1fZFqsCsYYfehO3txS3RXTL8OPxJT6mKy/view?usp=sharing"}><h1 className="hover:text-slate-400 font-bold text-white">Resume</h1></Link>
             <Link href={"https://github.com/SuperexMack/jobportfolio"}><Github className="text-white"></Github></Link>
         </div>
         </>
