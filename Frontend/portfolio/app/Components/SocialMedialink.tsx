@@ -4,11 +4,11 @@ import Link from "next/link"
 export function SocialMediaLinks(){
     return(
         <>
-        <div className="w-full flex justify-between mt-[100px]">
+        <div className="w-full md:flex-row md:flex flex-col items-center justify-between mt-[100px]">
 
            {/* First box */}
 
-           <div className="w-[48%] h-[300px] flex flex-col space-y-4">
+           <div className="md:w-[48%] w-full h-[300px] flex flex-col space-y-4">
 
              <div className="w-full flex space-x-3  mt-3 space-x-3.5 justify-center">
 
@@ -41,9 +41,9 @@ export function SocialMediaLinks(){
 
            {/* Second box */}
 
-           <div className="w-[48%] h-[300px]  flex flex-col space-y-4 items-center">
+           <div className="md:w-[48%] w-full h-[300px] flex flex-col space-y-4">
 
-             <div className="w-full flex space-x-3  mt-3 space-x-3.5 items-center">
+             <div className="w-full flex space-x-3  mt-3 space-x-3.5 justify-center">
 
                  <div className="relative w-[100px] h-[100px]">
                     <Image fill className=" ml-3 rounded-lg object-cover" alt="_github" src={"/github.webp"}></Image>
@@ -56,7 +56,7 @@ export function SocialMediaLinks(){
 
              </div>
 
-              <div className="w-full flex space-x-3  mt-3 space-x-3.5 items-center">
+              <div className="w-full flex space-x-3  mt-3 space-x-3.5 justify-center">
 
                  <div className="relative w-[100px] h-[100px]">
                     <Image fill className=" ml-3 rounded-lg object-cover" alt="_yt" src={"/ytt.webp"}></Image>
