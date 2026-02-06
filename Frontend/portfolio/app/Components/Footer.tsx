@@ -14,7 +14,7 @@ export function Footer(){
               <p>
                 Built by <span className="text-gray-200">Mohit</span>. The source code is available on{" "}
                 <Link
-                  href="https://github.com/yourusername"
+                  href="https://github.com/SuperexMack/jobportfolio"
                   className="underline underline-offset-4 hover:text-white transition"
                 >
                   GitHub
