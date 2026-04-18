@@ -5,8 +5,8 @@ import { useEffect, useRef, useState } from "react";
 
 export function TopImageDiv() {
 
-  const [skillValue, setSkillValue] = useState("A Programmer")
-  const [intervalValue, setIntervalValue] = useState(0)
+  const [skillValue, setSkillValue] = useState("Full-Stack web developer")
+  
 
   const songRef = useRef<HTMLAudioElement>(null)
 
@@ -20,12 +20,11 @@ export function TopImageDiv() {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setIntervalValue(prev => {
-        const next = (prev + 1) % skillsArray.length
-        setSkillValue(skillsArray[next])
-        return next
+      setSkillValue(prev => {
+        const next = (skillsArray.indexOf(prev)+1) % skillsArray.length
+        return skillsArray[next]
       })
-    }, 2000) // thoda slow kiya for better UX
+    }, 1000) // thoda slow kiya for better UX
 
     return () => clearInterval(interval)
   }, [])
