@@ -14,6 +14,7 @@ export function Footer(){
               <p>
                 Built by <span className="text-gray-200">Mohit</span>. The source code is available on{" "}
                 <Link
+                  target="_blank"
                   href="https://github.com/SuperexMack/jobportfolio"
                   className="underline underline-offset-4 hover:text-white transition"
                 >
@@ -22,10 +23,10 @@ export function Footer(){
               </p>
 
               <div className="flex justify-center items-center gap-6 pt-3 text-gray-500">
-                <Link href="https://medium.com/@flux7500560" className="hover:text-white transition">Medium</Link>
-                <Link href="https://x.com/mohitsatitwt" className="hover:text-white transition">Twitter</Link>
-                <Link href="https://github.com/SuperexMack">GitHub</Link>
-                <Link href="https://www.linkedin.com/in/mohitsatilinks/">LinkedIn</Link>
+                <Link target="_blank" href="https://medium.com/@flux7500560" className="hover:text-white transition">Medium</Link>
+                <Link target="_blank" href="https://x.com/mohitsatitwt" className="hover:text-white transition">Twitter</Link>
+                <Link target="_blank" href="https://github.com/SuperexMack">GitHub</Link>
+                <Link target="_blank" href="https://www.linkedin.com/in/mohitsatilinks/">LinkedIn</Link>
               </div>
 
             </div>

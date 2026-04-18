@@ -53,21 +53,21 @@ export function Navbar({blogRef,projectRef,achRef}:any){
 
                
                 <div className="flex w-screen absolute left-0 p-4 h-[200px] top-[80px] bg-black flex-col space-y-3 items-center">
-                <Link onClick={blog} href={"/"}><h1 className="hover:text-slate-400 md:flex font-bold text-white">Blogs</h1></Link>
-                <Link onClick={project} href={"/"}><h1 className="hover:text-slate-400 md:flex font-bold text-white">Projects</h1></Link>
-                <Link onClick={achv} href={"/"}><h1 className="hover:text-slate-400 md:flex font-bold text-white">achievement</h1></Link>
-                <Link href={"https://drive.google.com/file/d/1fZFqsCsYYfehO3txS3RXTL8OPxJT6mKy/view?usp=sharing"}><h1 className="hover:text-slate-400 md:flex font-bold text-white">Resume</h1></Link>
-                <Link href={"https://github.com/SuperexMack/jobportfolio"}><Github className="text-white md:flex"></Github></Link>
+                <Link target="_blank" onClick={blog} href={"/"}><h1 className="hover:text-slate-400 md:flex font-bold text-white">Blogs</h1></Link>
+                <Link target="_blank" onClick={project} href={"/"}><h1 className="hover:text-slate-400 md:flex font-bold text-white">Projects</h1></Link>
+                <Link target="_blank" onClick={achv} href={"/"}><h1 className="hover:text-slate-400 md:flex font-bold text-white">achievement</h1></Link>
+                <Link target="_blank" href={"https://drive.google.com/file/d/1vNN8FNqsox8N2J-oYQTCY7kBJXVd1FJV/view?usp=sharing"}><h1 className="hover:text-slate-400 md:flex font-bold text-white">Resume</h1></Link>
+                <Link target="_blank" href={"https://github.com/SuperexMack"}><Github className="text-white md:flex"></Github></Link>
                 </div>
                 
 
              ):(
                 <>
-                <Link onClick={blog} href={"/"}><h1 className="hover:text-slate-400 md:flex hidden font-bold text-white">Blogs</h1></Link>
-                <Link onClick={project} href={"/"}><h1 className="hover:text-slate-400 md:flex hidden font-bold text-white">Projects</h1></Link>
-                <Link onClick={achv} href={"/"}><h1 className="hover:text-slate-400 md:flex hidden font-bold text-white">achievement</h1></Link>
-                <Link href={"https://drive.google.com/file/d/1fZFqsCsYYfehO3txS3RXTL8OPxJT6mKy/view?usp=sharing"}><h1 className="hover:text-slate-400 md:flex hidden font-bold text-white">Resume</h1></Link>
-                <Link href={"https://github.com/SuperexMack/jobportfolio"}><Github className="text-white md:flex hidden"></Github></Link>
+                <Link target="_blank" onClick={blog} href={"/"}><h1 className="hover:text-slate-400 md:flex hidden font-bold text-white">Blogs</h1></Link>
+                <Link target="_blank" onClick={project} href={"/"}><h1 className="hover:text-slate-400 md:flex hidden font-bold text-white">Projects</h1></Link>
+                <Link target="_blank" onClick={achv} href={"/"}><h1 className="hover:text-slate-400 md:flex hidden font-bold text-white">achievement</h1></Link>
+                <Link target="_blank" href={"https://drive.google.com/file/d/1vNN8FNqsox8N2J-oYQTCY7kBJXVd1FJV/view?usp=sharing"}><h1 className="hover:text-slate-400 md:flex hidden font-bold text-white">Resume</h1></Link>
+                <Link target="_blank" href={"https://github.com/SuperexMack"}><Github className="text-white md:flex hidden"></Github></Link>
                 </>
              )}
 

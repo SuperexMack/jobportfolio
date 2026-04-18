@@ -1,7 +1,57 @@
 "use client";
 
+import { useState } from "react";
+
 export function Projects() {
+
+
+  const [moreProjects,setMoreprojects] = useState(false)
+
+
+  const moreContent = ()=>{
+    if(moreProjects == false) setMoreprojects(true)
+    else setMoreprojects(false)
+  }
+
+
   const projects = [
+    {
+    title: "ghLockedin",
+    period: "2025",
+    about:
+      "A Web3-based accountability platform that motivates daily GitHub activity through ETH staking. Built a streak tracking system using GitHub APIs and integrated smart contracts to enforce penalties by locking funds on missed commits. Implemented a real-time validation workflow using Next.js and Node.js to combine financial incentives with on-chain proof.",
+    tags: ["Web3", "Next.js", "Node.js", "Smart Contracts","Prisma ORM","Solidity"],
+    github: "https://github.com/SuperexMack/ghLockedIn",
+  },
+  {
+    title: "RedChat",
+    period: "2025",
+    about:
+      "An anonymous real-time chat platform inspired by Omegle, enabling global 1:1 communication. Designed Redis-based user matchmaking and built private chat rooms using WebSockets. Developed with Next.js on the frontend and Node.js, Express, PostgreSQL, and Prisma for backend services.",
+    tags: ["Next.js", "WebSockets", "Redis", "PostgreSQL","Nodejs","Prisma ORM"],
+    github: "https://github.com/SuperexMack/redChat",
+  },
+  {
+    title: "Savebiss",
+    period: "2025",
+    about:
+      "A content protection platform for creators and course sellers that prevents video piracy using dynamic, user-specific watermarking. Ensures secure video streaming and strengthens content ownership enforcement at scale.",
+    tags: ["Security", "Video Streaming", "Watermarking","FFmpeg","Nodejs","Nextjs"],
+    github: "https://github.com/SuperexMack/ffmpeg",
+  },
+  {
+    title: "Callify",
+    period: "2025",
+    about:
+      "A real-time 1:1 video calling platform built using WebRTC, focusing on core peer-to-peer video communication and signaling. Designed for low-latency direct connections, with additional features and improvements planned.",
+    tags: ["WebRTC", "Real-time", "Video Calling", "P2P","Websockets","Nextjs","Nodejs","Prisma ORM"],
+    github: "https://github.com/SuperexMack/Callify",
+  },
+   
+  ];
+
+
+  const secondSkillSet = [
     {
       title: "Twitter Blocker Extension",
       period: "2024",
@@ -17,14 +67,6 @@ export function Projects() {
         "I’ve launched SumCity, a multiplayer game built with Phaser and WebRTC. It features private rooms, real-time chat, and smooth low-latency gameplay using peer-to-peer connections. This project was a deep dive into real-time systems and game development. Audio and video features are coming soon.",
       tags: ["Phaser", "WebRTC", "Multiplayer", "Game Dev"],
       github: "https://github.com/SuperexMack/GatherTown",
-    },
-    {
-      title: "RedChat",
-      period: "2025",
-      about:
-        "RedChat is an anonymous chat platform inspired by Omegle with a custom twist. Users register, accept terms, and are randomly matched with someone online anywhere in the world. Once paired, they are connected instantly in a private chat room using WebSockets, while Redis manages user matching efficiently.",
-      tags: ["TypeScript", "WebSockets", "Redis", "Real-time"],
-      github: "https://github.com/SuperexMack/redChat",
     },
     {
       title: "Competitive Programming Tracker",
@@ -50,7 +92,7 @@ export function Projects() {
       tags: ["Node.js", "Redis", "Backend", "System Design"],
       github: "https://github.com/SuperexMack/rate_limit-using-redis",
     },
-  ];
+  ]
 
   return (
     <>
@@ -61,6 +103,51 @@ export function Projects() {
 
         <div className="flex flex-col space-y-8">
           {projects.map((project, index) => (
+            <div
+              key={index}
+              className="border-b border-white/10 pb-8"
+            >
+              
+              <div className="flex items-center justify-between">
+                <div>
+                  <h2 className="text-white text-lg font-semibold">
+                    {project.title}
+                  </h2>
+                  <p className="text-gray-500 text-sm">{project.period}</p>
+                </div>
+
+                <button
+                  onClick={() => window.open(project.github)}
+                  className="text-gray-400 hover:text-white transition"
+                >
+                  🔗
+                </button>
+              </div>
+
+             
+              <p className="text-gray-300 text-[18px] mt-4 leading-relaxed">
+                {project.about}
+              </p>
+
+              
+              <div className="flex flex-wrap gap-2 mt-4">
+                {project.tags.map((tag, i) => (
+                  <span
+                    key={i}
+                    className="px-3 py-1 rounded-full bg-white/5 border border-white/10 text-xs text-gray-300"
+                  >
+                    {tag}
+                  </span>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+
+
+
+         <div className={moreProjects?"flex flex-col space-y-8":"flex hidden flex-col space-y-8"}>
+          {secondSkillSet.map((project, index) => (
             <div
               key={index}
               className="border-b border-white/10 pb-8"
@@ -101,6 +188,13 @@ export function Projects() {
             </div>
           ))}
         </div>
+        
+        <div className="w-full h-auto flex mt-4 items-center justify-center">
+
+          <button onClick={moreContent} className="p-2 border-2 text-white hover:cursor-pointer border-white">{moreProjects?"Show Less":"Show More"}</button>
+
+        </div>
+
       </div>
     </>
   );
