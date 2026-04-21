@@ -43,7 +43,7 @@ export function TopImageDiv() {
       
       <div className="w-full h-[200px] sm:h-[300px] mt-4 relative rounded-lg overflow-hidden">
         <Image
-          src="/lasterheader.jpeg"
+          src="/lockedin.png"
           alt="top_image"
           fill
           className="object-cover rounded-lg hover:scale-105 transition-transform duration-300"
