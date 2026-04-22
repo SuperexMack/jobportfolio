@@ -56,7 +56,7 @@ export function Navbar({blogRef,projectRef,achRef}:any){
                 <Link onClick={blog} href={"/"}><h1 className="hover:text-slate-400 md:flex font-bold text-white">Blogs</h1></Link>
                 <Link onClick={project} href={"/"}><h1 className="hover:text-slate-400 md:flex font-bold text-white">Projects</h1></Link>
                 <Link onClick={achv} href={"/"}><h1 className="hover:text-slate-400 md:flex font-bold text-white">achievement</h1></Link>
-                <Link target="_blank" href={"https://drive.google.com/file/d/1y4zDD7MxCtT65z3tgJNdl3GYp5h2KQ6H/view?usp=sharing"}><h1 className="hover:text-slate-400 md:flex font-bold text-white">Resume</h1></Link>
+                <Link target="_blank" href={"https://drive.google.com/file/d/1sJP41arar7RbEmC_mLsf6ieGCjam07t9/view?usp=sharing"}><h1 className="hover:text-slate-400 md:flex font-bold text-white">Resume</h1></Link>
                 <Link target="_blank" href={"https://github.com/SuperexMack"}><Github className="text-white md:flex"></Github></Link>
                 </div>
                 
@@ -66,7 +66,7 @@ export function Navbar({blogRef,projectRef,achRef}:any){
                 <Link onClick={blog} href={"/"}><h1 className="hover:text-slate-400 md:flex hidden font-bold text-white">Blogs</h1></Link>
                 <Link onClick={project} href={"/"}><h1 className="hover:text-slate-400 md:flex hidden font-bold text-white">Projects</h1></Link>
                 <Link onClick={achv} href={"/"}><h1 className="hover:text-slate-400 md:flex hidden font-bold text-white">achievement</h1></Link>
-                <Link target="_blank" href={"https://drive.google.com/file/d/1y4zDD7MxCtT65z3tgJNdl3GYp5h2KQ6H/view?usp=sharing"}><h1 className="hover:text-slate-400 md:flex hidden font-bold text-white">Resume</h1></Link>
+                <Link target="_blank" href={"https://drive.google.com/file/d/1sJP41arar7RbEmC_mLsf6ieGCjam07t9/view?usp=sharing"}><h1 className="hover:text-slate-400 md:flex hidden font-bold text-white">Resume</h1></Link>
                 <Link target="_blank" href={"https://github.com/SuperexMack"}><Github className="text-white md:flex hidden"></Github></Link>
                 </>
              )}
