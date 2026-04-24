@@ -46,7 +46,7 @@ export function TopImageDiv() {
           src="/lockedin.png"
           alt="top_image"
           fill
-          className="object-cover rounded-lg hover:scale-105 transition-transform duration-300"
+          className="object-contain rounded-lg hover:scale-105 transition-transform duration-300"
         />
       </div>
 
