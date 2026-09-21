@@ -23,7 +23,7 @@ export function Details(){
 
                  <div className='flex space-x-3'>
                     <ul className='text-white'><Lightbulb className='bg-slate-800 p-1 rounded-lg w-[30px] h-auto'></Lightbulb></ul>
-                    <Link className='hover:underline text-white' href={"https://we-agency.vercel.app/"}>Founder @We-agency</Link>
+                    <Link className='hover:underline text-white' href={"https://agency.mohitsati.dev/"}>Founder @We-agency</Link>
                 </div>
 
                  <div className='flex space-x-3'>
