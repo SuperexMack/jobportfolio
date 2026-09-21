@@ -1,6 +1,6 @@
 # 🌐 Mohit Sati (Personal Portfolio)
 
-**Live Demo:** [https://www.mohitsati.dev/](https://www.mohitsati.dev/)
+**Live Demo:** [https://www.mohitsati.dev](https://www.mohitsati.dev)
 
 An open-source **developer portfolio website** built with **Next.js** to showcase projects, skills, and experience. Feel free to use this as a starting point for your own portfolio or contribute improvements! 🚀
 
