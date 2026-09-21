@@ -25,30 +25,7 @@ let achRef = useRef<null | HTMLDivElement>(null)
   const [statement, SetStatement] = useState(startingIntro[0]);
   let [flag, setFlag] = useState(true);
 
-  useEffect(() => {
-    const caller = setInterval(() => {
-      if (count >= startingIntro.length) {
-        setFlag(false);
-        clearInterval(caller);
-        return;
-      }
-
-      SetStatement(startingIntro[count]);
-      setCount(count + 1);
-
-      console.log("count:", count);
-    }, 1000);
-
-    return () => clearInterval(caller);
-  }, [count]);
-
   return (
-    <>
-      {flag ? (
-        <div className="w-full h-screen bg-black flex items-center justify-center">
-          <h1 className="text-white text-[50px]">{statement}</h1>
-        </div>
-      ) : (
         <>
           <Navbar blogRef={blogRef} projectRef={projectRef} achRef={achRef} ></Navbar>
 
@@ -68,7 +45,5 @@ let achRef = useRef<null | HTMLDivElement>(null)
             </div>
           </div>
         </>
-      )}
-    </>
   );
 }
