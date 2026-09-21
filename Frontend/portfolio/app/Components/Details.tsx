@@ -28,7 +28,7 @@ export function Details(){
 
                  <div className='flex space-x-3'>
                     <ul className='text-white'><MapPinHouse className='bg-slate-800 p-1 rounded-lg w-[30px] h-auto'></MapPinHouse></ul>
-                    <h1 className='text-white'>Nagla,Pantnagar(Uttarakhand,India)</h1>
+                    <h1 className='text-white'>Mars</h1>
                 </div>
 
                  <div className='flex space-x-3'>
