@@ -18,7 +18,7 @@ export function Details(){
 
                 <div className='flex space-x-3'>
                     <ul className='text-white'><CodeXml className='bg-slate-800 p-1 rounded-lg w-[30px] h-auto'></CodeXml></ul>
-                    <h1 className='text-white'>Unemployed/Looking for jobs</h1>
+                    <Link className='hover:underline text-white' href={"https://www.codingblocks.com/"}>SDE @Coding Blocks</Link>
                 </div>
 
                  <div className='flex space-x-3'>
