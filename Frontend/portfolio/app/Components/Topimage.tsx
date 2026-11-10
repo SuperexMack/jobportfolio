@@ -43,7 +43,7 @@ export function TopImageDiv() {
       
       <div className="w-full h-[200px] sm:h-[300px] mt-4 relative rounded-lg overflow-hidden">
         <Image
-          src="https://media.licdn.com/dms/image/v2/D4D03AQGpoG_fyg79qw/profile-displayphoto-crop_800_800/B4DaDYyQo6J0AM-/0/1790343451192?e=1795651200&v=beta&t=HTQprsmeX2eBC7V6XBwjRJ8I75l6XQ_Jhq4huK7jP7A"
+          src="/lockedin.png"
           alt="top_image"
           fill
           className="object-contain rounded-lg hover:scale-105 transition-transform duration-300"
@@ -56,7 +56,7 @@ export function TopImageDiv() {
         
         <div className="relative w-[120px] h-[120px] md:w-[150px] md:h-[150px] shrink-0">
           <Image
-            src="/mohitsati.png"
+            src="https://media.licdn.com/dms/image/v2/D4D03AQGpoG_fyg79qw/profile-displayphoto-crop_800_800/B4DaDYyQo6J0AM-/0/1790343451192?e=1795651200&v=beta&t=HTQprsmeX2eBC7V6XBwjRJ8I75l6XQ_Jhq4huK7jP7A"
             alt="profile"
             fill
             className="object-cover rounded-full hover:scale-105 transition-transform"
